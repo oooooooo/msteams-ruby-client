@@ -1,5 +1,7 @@
 # Msteams::Ruby::Client
 
+[![Gem Version](https://badge.fury.io/rb/msteams-ruby-client.svg)](https://badge.fury.io/rb/msteams-ruby-client)
+
 Ruby Wrapper Library to send requests to Microsoft Teams Webhooks.
 
 ## Installation
