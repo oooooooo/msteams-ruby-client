@@ -1,4 +1,4 @@
 require 'msteams-ruby-client'
 
-msteams = Msteams::Ruby::Client.new
-msteams.post('hello')
+teams = Teams.new
+teams.post('hello')

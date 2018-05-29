@@ -25,8 +25,8 @@ Or install it yourself as:
 ```ruby
 require 'msteams-ruby-client'
 
-msteams = Msteams::Ruby::Client.new('<webhook url>')
-msteams.post('hello')
+teams = Teams.new('<webhook url>')
+teams.post('hello')
 ```
 
 Or

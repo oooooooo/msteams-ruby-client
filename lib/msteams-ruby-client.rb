@@ -3,5 +3,5 @@ require 'net/http'
 require 'openssl'
 require 'uri'
 
-require_relative 'msteams/ruby/client/version'
-require_relative 'msteams/ruby/client'
+require_relative 'teams/version'
+require_relative 'teams'
