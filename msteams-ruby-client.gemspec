@@ -1,11 +1,11 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'msteams/ruby/client/version'
+require 'teams/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'msteams-ruby-client'
-  spec.version       = Msteams::Ruby::Client::VERSION
+  spec.version       = Teams::VERSION
   spec.authors       = ['oooooooo']
   spec.email         = ['60764+oooooooo@users.noreply.github.com']
 

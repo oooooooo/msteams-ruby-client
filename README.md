@@ -1,4 +1,4 @@
-# Msteams::Ruby::Client
+# Teams
 
 [![Gem Version](https://badge.fury.io/rb/msteams-ruby-client.svg)](https://badge.fury.io/rb/msteams-ruby-client)
 
@@ -32,7 +32,7 @@ teams.post('hello')
 Or
 
 ```bash
-$ MSTEAMS_RUBY_CLIENT_WEBHOOK_URL=https://outlook.office.com/webhook/... examples/post/post.rb
+$ MSTEAMS_RUBY_CLIENT_WEBHOOK_URL=https://outlook.office.com/webhook/... ruby examples/post/post.rb
 ```
 
 ## License
