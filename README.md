@@ -26,13 +26,13 @@ Or install it yourself as:
 require 'msteams-ruby-client'
 
 teams = Teams.new('<webhook url>')
-teams.post('hello')
+teams.post('hello<br>world')
 ```
 
 Or
 
 ```bash
-$ MSTEAMS_RUBY_CLIENT_WEBHOOK_URL=https://outlook.office.com/webhook/... ruby examples/post/post.rb
+$ MSTEAMS_RUBY_CLIENT_WEBHOOK_URL=https://outlook.office.com/webhook/... bundle exec ruby examples/post/post.rb
 ```
 
 ## License

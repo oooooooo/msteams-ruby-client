@@ -1,5 +1,5 @@
 class Teams
-  def initialize(webhook_url = '')
+  def initialize(webhook_url = nil)
     @webhook_url = webhook_url || ENV['MSTEAMS_RUBY_CLIENT_WEBHOOK_URL']
   end
 

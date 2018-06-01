@@ -1,4 +1,4 @@
 require 'msteams-ruby-client'
 
 teams = Teams.new
-teams.post('hello')
+teams.post('hello<br>world')
