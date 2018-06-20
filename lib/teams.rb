@@ -3,12 +3,12 @@ class Teams
     @webhook_url = webhook_url || ENV['MSTEAMS_RUBY_CLIENT_WEBHOOK_URL']
   end
 
-  def post(text)
+  def post(text, options = {})
     uri = URI.parse(@webhook_url)
 
     request = Net::HTTP::Post.new(uri.request_uri)
     request['Content-Type'] = 'application/json'
-    request.body = { text: text }.to_json
+    request.body = { text: text, summary: options[:summary] || text }.to_json
 
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
