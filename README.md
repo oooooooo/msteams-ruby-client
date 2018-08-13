@@ -40,8 +40,8 @@ $ MSTEAMS_RUBY_CLIENT_WEBHOOK_URL=https://outlook.office.com/webhook/... bundle 
 ```ruby
 teams.post('hello',
   summary: 'world', # default is 1st argument ( Ex. hello )
-  text2html: true,  # default is false
-  title: 'Title'    # default is blabk, \n to <br> and autolink
+  text2html: true,  # default is false, \n to <br> and autolink
+  title: 'Title'    # default is blabk
   )
 ```
 
