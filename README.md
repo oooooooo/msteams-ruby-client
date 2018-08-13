@@ -35,6 +35,16 @@ Or
 $ MSTEAMS_RUBY_CLIENT_WEBHOOK_URL=https://outlook.office.com/webhook/... bundle exec ruby examples/post/post.rb
 ```
 
+## Options
+
+```ruby
+teams.post('hello',
+  summary: 'world', # default is 1st argument ( Ex. hello )
+  text2html: true,  # default is false
+  title: 'Title'    # default is blabk, \n to <br> and autolink
+  )
+```
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
