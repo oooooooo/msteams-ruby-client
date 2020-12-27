@@ -32,7 +32,7 @@ teams.post('hello<br>world')
 Or
 
 ```bash
-$ MSTEAMS_RUBY_CLIENT_WEBHOOK_URL=https://outlook.office.com/webhook/... bundle exec ruby examples/post/post.rb
+$ TEAMS_WEBHOOK_URL=https://outlook.office.com/webhook/... bundle exec ruby examples/post/post.rb
 ```
 
 ## Options
