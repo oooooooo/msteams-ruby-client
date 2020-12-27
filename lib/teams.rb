@@ -11,6 +11,7 @@ class Teams
     request.body = {
       title: options[:title],
       text: options[:text2html] ? text2html(text) : text,
+      themeColor: options[:themeColor],
       summary: options[:summary] || text
     }.to_json
 

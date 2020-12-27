@@ -41,7 +41,8 @@ $ TEAMS_WEBHOOK_URL=https://outlook.office.com/webhook/... bundle exec ruby exam
 teams.post('hello',
   summary: 'world', # default is 1st argument ( Ex. hello )
   text2html: true,  # default is false, \n to <br> and autolink
-  title: 'Title'    # default is blabk
+  themeColor: '0078D7',
+  title: 'Title'
   )
 ```
 
